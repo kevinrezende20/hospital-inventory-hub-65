@@ -7,7 +7,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { cn } from "@/lib/utils";
 
 type DatePickerProps = {
-  value?: Date;
+  value: Date | undefined;
   onChange: (date?: Date) => void;
   label: string;
 };
